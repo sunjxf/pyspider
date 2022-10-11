@@ -15,6 +15,8 @@ pip install pycurl-7.43.0.4-cp36-cp36m-win_amd64.whl
 ```
 3、下载源码，从源码安装pyspider
 ```
+git clone --depth=1 https://github.com/sunjxf/pyspider.git
+cd pyspider
 python setup.py install
 ```
 4、运行, 浏览器访问 [http://localhost:5000/](http://localhost:5000/)
